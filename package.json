@@ -1,0 +1,30 @@
+{
+  "name": "ml",
+  "version": "1.0.0",
+  "description": "Machine learning library",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "build": "npx tsc",
+    "start": "nodemon dist/index.js",
+    "dev": "nodemon index.ts"
+  },
+  "keywords": [
+    "machine-learning",
+    "javascript"
+  ],
+  "author": "abhimaurya-dev",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.10",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "ts-jest": "^29.2.2",
+    "ts-node": "^10.9.2"
+  }
+}
